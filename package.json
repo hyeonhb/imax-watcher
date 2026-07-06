@@ -1,0 +1,17 @@
+{
+  "name": "cgv-imax-watch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "watch": "node watcher.mjs",
+    "once": "node watcher.mjs --once",
+    "calibrate": "node watcher.mjs --calibrate"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
